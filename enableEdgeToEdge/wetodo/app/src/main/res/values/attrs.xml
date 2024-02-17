@@ -1,0 +1,8 @@
+<resources>
+    <attr name="appBarOverlay" format="reference" />
+    <attr name="popupOverlay" format="reference" />
+    <attr name="fabForeground" format="color" />
+    <attr name="fabBackground" format="color" />
+    <attr name="primaryTextColor" format="color" />
+    <attr name="secondaryTextColor" format="color" />
+</resources>

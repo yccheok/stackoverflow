@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.WeTodo" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+
+        <item name="appBarOverlay">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="popupOverlay">@style/ThemeOverlay.AppCompat</item>
+
+        <item name="fabBackground">@color/white</item>
+        <item name="fabForeground">@color/black</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="21">?attr/colorPrimaryVariant</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">false</item>
+
+        <item name="primaryTextColor">@color/primaryTextColorDark</item>
+        <item name="secondaryTextColor">@color/secondaryTextColorDark</item>
+    </style>
+</resources>
